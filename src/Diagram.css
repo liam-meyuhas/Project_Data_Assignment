@@ -1,0 +1,64 @@
+/* Style the main container to use flexbox for alignment */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the horizontal container */
+.horizontal-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for each box */
+.box {
+  padding: 50px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: aquamarine;
+  font-weight: bold;
+}
+
+/* Style for mongodb box */
+.mongobox {
+  padding: 50px;
+  font-weight: bold;
+  border-radius: 80px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: chocolate;
+}
+/* Style for arrows */
+.arrow {
+  font-size: 70px;
+  margin: 10px;
+}
+
+/* Style for additional information */
+.info {
+  -webkit-text-fill-color: green;
+  text-align: right;
+  font-weight: bold;
+  font-style: italic; /* הטקסט יהיה באיטלקי */
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.icon {
+  font-size: 50px;
+}
